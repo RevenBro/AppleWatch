@@ -1,0 +1,342 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Light.woff2') format('woff2'),
+        url('../fonts/Roboto-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Bold.woff2') format('woff2'),
+        url('../fonts/Roboto-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../Roboto-Regular.woff2') format('woff2'),
+        url('../Roboto-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* Basic codes start */
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+/* Basic codes end */
+
+/* Header section start */
+
+.site-header {
+    padding: 36px 0 79px 0;
+}
+
+.header {
+    margin-top: 30px;
+    margin-bottom: 79px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-logo-link {
+     margin-right: 502px;
+     display: inline-block;
+     vertical-align: middle;
+}
+
+.header-navbar {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.header-item {
+    display: inline-block;
+    margin-left: 40px;
+}
+
+.header-item:nth-child(5) {
+    text-decoration: underline;
+}
+
+.header-navlink {
+    color: #333;
+    font-family: "Roboto";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+/* Header section end */
+
+/* Site main start */
+/* Hero section start */
+
+.hero-section {
+    padding-bottom: 50px;
+    background-image: url(../images/hero-img.png);
+    background-repeat: no-repeat;
+    background-position: calc(50% + 500px) 0px;
+    background-size: 550px 460px;
+}
+
+.hero {
+    padding-top: 120px;
+}
+.hero-content {
+    width: 450px;
+}
+
+.forline {
+    display: flex;
+}
+
+.hero-line {
+    width: 3px;
+    height: 120px;
+    background-color: #888;
+    margin-right: 30px;
+    padding: 2px;
+}
+
+.hero-title {
+    color: #000;
+    font-family: "Roboto";
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    margin-bottom: 30px;
+}
+
+.hero-text {
+    color: #777;
+    font-family: "Roboto";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    margin-bottom: 30px;
+}
+
+.hero-link {
+    width: 260px;
+    color: #FFF;
+    background-color: #EA625C;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+    border: 1px solid #EA625C;
+    padding: 12px 20px;
+}
+
+.hero-link:hover {
+    color: #EA625C;
+    border: 1px solid #EA625C;
+    background-color: #fff;
+    transition: all 0.4s;
+}
+
+/* Hero section end */
+
+
+.paragraph {
+    margin: 70px 0 164px 0;
+    display: flex;
+}
+
+.paragraph-two, .paragraph-three {
+    margin-left: 80px;
+}
+
+.paragraph-one, .paragraph-two, .paragraph-three {
+    width: 280px;
+    width: 30%;
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.first-title, .second-title, .third-title {
+    margin-bottom: 30px;
+    color: #222;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+}
+
+.first-text, .second-text, .third-text {
+    color: #333;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+}
+
+.paragraph-three > a {
+    color: #EA625C;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 160%;
+}
+
+.brand {
+    margin-bottom: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.left-content {
+    width: 450px;
+    margin-top: 100px;
+}
+
+.brand-title {
+    color: #000;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    margin-bottom: 30px;
+}
+
+.brand-line-demo {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.brand-line {
+    width: 3px;
+    height: 96px;
+    background-color: #888;
+    margin-right: 30px;
+    padding: 2px;
+}
+
+.brand-text {
+    color: #777;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.brand-link {
+    width: 260px;
+    color: #FFF;
+    background-color: #EA625C;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    border: 1px solid #EA625C;
+    font-weight: 700;
+    line-height: 150%;
+    padding: 10px 60px;
+}
+
+.brand-link:hover {
+    color: #EA625C;
+    border: 1px solid #EA625C;
+    background-color: #fff;
+    transition: all 0.4s;
+}
+/* Site main end */
+
+/* Site footer start */
+
+
+.site-footer {
+    width: 100%;
+    height: 830px;
+    background-image: url(../images/footer-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.footer-main {
+    width: 450px;
+    margin-left: 635px;
+    padding-top: 240px;
+}
+
+.footer-title {
+    color: #FFF;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    margin-bottom: 30px;
+}
+
+.footer-line-demo {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.footer-line {
+    width: 3px;
+    height: 120px;
+    background-color: #fff;
+    margin-right: 40px;
+    padding: 2px;
+    border-radius: 10px;
+}
+
+.footer-text {
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.footer-link {
+    width: 260px;
+    color: #FFF;
+    background-color: #EA625C;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    border: 1px solid #EA625C;
+    font-weight: 700;
+    line-height: 150%;
+    padding: 12px 30px;
+}
+
+.footer-link:hover {
+    color: #EA625C;
+    border: 1px solid #EA625C;
+    background-color: #fff;
+    transition: all 0.4s;
+}
+/* Site footer end */
